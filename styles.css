@@ -1,3 +1,76 @@
+h1, h2, h3, h4, p, label, a, figcaption {
+  font-family: helvetica, sans-serif;
+}
+
+a {
+  color: green;
+}
+
+a:visited {
+  color: orange;
+}
+
 body {
-  background: green;
+max-width: 100%;
+}
+
+footer {
+  height: 200px;
+  margin-top: 10%;
+  background-image: url("images/tabletop-background.jpg");
+  background-repeat: repeat-x;
+  clear: both;
+}
+
+form {
+  margin-top: 10%;
+}
+
+label {
+  line-height: 1.5em;
+}
+
+main {
+  display: inline;
+  vertical-align: middle;
+  width: 45%;
+}
+
+main img {
+  width: 30%;
+  padding-top: 10%;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+nav {
+  width: 20%;
+  display: inline;
+  vertical-align: middle;
+  float: left;
+  margin-right: 20%;
+  padding: 10px;
+  border: 1px solid black;
+  line-height: 1.5em;
+}
+
+#contact {
+  margin-top: -7%;
+}
+
+.thefood {
+  width: 50%;
+  float: right;
+  clear: right;
+}
+
+@media screen and (max-width: 541px) {
+  main {
+    float: left;
+    width: 100%;
+  }
+  nav {
+    float: left;
+    width: 100%;
+  }
 }
